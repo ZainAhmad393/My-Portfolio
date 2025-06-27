@@ -1,0 +1,235 @@
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: aliceblue;
+    }
+    nav {
+      background-color: #003135 !important;
+    }
+
+    .logo-of-nav {
+      font-size: 30px;
+      font-weight: 600;
+      font-family: cursive;
+      color: white !important;
+    }
+
+    .ul-of-navbar li a {
+      margin-left: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: monospace;
+      font-weight: 600;
+      color: rgb(235, 224, 224) !important;
+    }
+
+    .ul-of-navbar li a:hover {
+      transform: scale(1.02);
+      transition: 0.4s ease-in;
+      color: #f3bb11 !important;
+      text-decoration: underline;
+    }
+
+    .img-for-header {
+      opacity: 1;
+    }
+
+    .image-overlay {
+      position: relative;
+      width: 100%;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 20%;
+      left: 5%;
+      font-size: 16px;
+    }
+
+    .text-overlay h3 {
+      color: white;
+      font-size: 52px;
+      font-weight: 600;
+      font-family: "Poetsen One", sans-serif;
+      text-align: center;
+    }
+
+    .text-overlay p {
+      color: white;
+      font-size: 28px;
+      font-family: "Inconsolata", monospace;
+
+    }
+   
+    #typewriter-effect {
+      font-size: 28px;
+      font-weight: 300;
+      color: white;
+      font-family: "Inconsolata", monospace;
+    }
+
+    #typed-text {
+      color:white;
+      font-weight: 600;
+      font-family: "Shadows Into Light", cursive;
+    }
+    .about-section{
+        width: 50%;
+    }
+    .aboutsectionpara{
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+    /* content for aside about section styling */
+    .about-aside-content{
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: 100px;
+    }
+    .about-aside-content h2{
+      text-align: center;
+
+    }
+    .about-aside-content p{
+      font-size: 18px;
+      width: 90%;
+    }
+    #DownloadBtn{
+      padding: 13px 60px;
+      border: none;
+      margin-top: 10px;
+      background-color: #024950;
+    }
+    #DownloadBtn:hover{
+      background-color: #0FA4AF;
+    }
+   
+    /* services card section styling  */
+   .servicescards{
+    margin-top: 200px;
+   }
+    .card-container-of-services {
+        width: 30%;
+        text-align: center;
+        padding: 14px;
+        margin: auto;
+        background-color: #0FA4AF;
+        height: auto; 
+    }
+  
+    .card-container-of-services:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: 0.2s ease-in;
+    }
+    .card-container-of-services h5{
+      margin-right: 3px;
+    }
+    .card-container-of-services i{
+      margin-right: 10px;
+    }
+    /* project section styling */
+    .projectsection {
+      margin-top: 200px;
+    }
+    .projectofhermain{
+      margin-top: 40px;
+    }
+    .projectofhermaincontent{
+      background-color: #AFDDE5;
+      outline: 3px solid #024950;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+    .projectofhermaincontent h3 {
+      margin-top: 120px;
+      text-align: center;
+      font-size: 30px;
+    }
+    .projectofhermaincontent p{
+      margin-top: 20px;
+      font-size: 18px;
+      text-align: center;
+    }
+    .imagegalleryofhermainproject img{
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+    }
+    .imagegalleryofhermainproject img:hover{
+      transform: translateY(10px);
+      transition: 0.2s ease-in;
+      cursor: pointer;
+
+    }
+    .imagegallery{
+     display: grid;
+     grid-template-columns: repeat(2 ,1fr);
+     grid-gap: 20px;
+    }
+   
+   /* contact secction styling  */
+   .contactform{
+    margin-top: 200px;
+   }
+.contactforminfo{
+  margin-top: 130px;
+  background-color: #0FA4AF;
+  border-radius: 20px;
+  box-shadow: 3px 3px 7px #0FA4AF;
+  width: 95%;
+  padding: 20px;
+}
+.contactforminfo i{
+  margin-right: 15px;
+}
+.contactforminfo h3{
+  padding-left: 10px;
+  font-size: 18px;
+
+}
+.contactforminfo p{
+  margin-left: 60px;
+  font-size: 16px;
+}
+.gettouch h3{
+color: #024950;
+}
+
+    /* media query for about section heading one  */
+    @media only screen and (max-width:768px){
+        #aboutsectionUxUiinfo{
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+    /* media query for resume Button  */
+    @media only screen and (max-width:1200px)  {
+        #DownloadBtn{
+            padding:13px  38px;
+        }
+    }
+     @media only screen and (max-width:992px)  {
+        #DownloadBtn{
+            padding:13px  10px;
+        }
+    }
+       @media only screen and (max-width:768px)  {
+        #DownloadBtn{
+          width: 70%;
+        }
+    }
+     /* @media only screen and (max-width:526px)  {
+        #DownloadBtn{
+            padding:13px  40px;
+        }
+    } */
+    #DownloadBtn a{ 
+      text-decoration: none;
+    }
+    .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='blue' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
