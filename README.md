@@ -19,7 +19,7 @@ The goal of this project was to **practice building responsive layouts** and bas
 ---
 
 ## Screenshots
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/portfolio.png)
 ---
 
 ## How to Run Locally
