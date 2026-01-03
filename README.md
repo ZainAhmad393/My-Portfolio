@@ -19,8 +19,7 @@ The goal of this project was to **practice building responsive layouts** and bas
 ---
 
 ## Screenshots
-<img width="100%" height="auto" alt="portfolio" src="https://github.com/user-attachments/assets/ccb5cfdc-496e-4139-b37d-07eb69514829" />
-
+![Homepage](screenshots/homepage.png)
 ---
 
 ## How to Run Locally
